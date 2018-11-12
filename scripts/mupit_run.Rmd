@@ -1,0 +1,117 @@
+---
+title: "DNM enrichment test"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+### Format DNM file to run MUPIT tool ###
+
+# expected columns 
+#
+# "person_id": ["temp"],
+# "chrom": ["16"],
+# "start_pos": [89348744],
+# "end_pos": [89348744],
+# "ref_allele": ["A"],
+# "alt_allele": ["G"],
+# "hgnc": ["ANKRD11"],
+# "consequence": ["missense_variant"],
+# "study_code": [None],
+# "publication_doi": [None],
+# "study_phenotype": [None],
+# "type": ["snv"] 
+
+dnm <- DNM_Sifrim_Jin # merged dataset to be formatted
+
+ref_len <- lapply(dnm$REF, function(x) length(unlist(strsplit(x, split = ''))))
+alt_len <- lapply(dnm$ALT, function(x) length(unlist(strsplit(x, split = ''))))
+
+dnm$type <- ifelse(ref_len > 1 | alt_len > 1, "indel", "snv")
+
+dnm$end <- dnm$POS
+dnm$publication <- "None"
+dnm$study_phenotype <- "None"
+
+dnm_snv <- data.frame(person_id = dnm$ID,
+                      chrom = dnm$CHR,
+                      start_pos = dnm$POS,
+                      end_pos = dnm$end,
+                      ref_allele = dnm$REF,
+                      alt_allele = dnm$ALT,
+                      hgnc = dnm$GENE,
+                      consequence = dnm$Cons,
+                      study_code = dnm$Study,
+                      pubication_doi = dnm$publicatio,
+                      study_phenotype = dnm$study_phenotype,
+                      type = dnm$type)
+
+dnm_snv$consequence <- sub(pattern = 'mis', replacement = 'missense_variant', dnm_snv$consequence, fixed = T)
+dnm_snv$consequence <- sub(pattern = 'frameshift', replacement = 'frameshift_variant', dnm_snv$consequence, fixed = T)
+dnm_snv$consequence <- sub(pattern = 'PTV', replacement = 'stop_gained', dnm_snv$consequence, fixed = T)
+
+
+write.table(dnm_snv, file = "data/dnm_janin_sifrim_formatted_30042018.tsv", row.names = FALSE, sep = '\t', quote = FALSE)
+
+```
+
+
+## R Markdown
+
+```{python}
+
+# run mupit tool for de novo mutation analysis
+
+from mupit.gene_enrichment import analyse_enrichment
+import pandas as pd
+
+trios = {"female": 0, "male": 1}
+
+# de_novos = pandas.DataFrame({
+#    "person_id": ["temp"],
+#    "chrom": ["16"],
+#    "start_pos": [28842291],
+#    "end_pos": [28842291],
+#    "ref_allele": ["C"],
+#    "alt_allele": ["T"],
+#    "hgnc": ["ATXN2L"],
+#    "consequence": ["missense_variant"],
+#    "study_code": [None],
+#    "publication_doi": [None],
+#    "study_phenotype": [None],
+#    "type": ["snv"],
+#    })
+
+# getting DNM data
+de_novos = pd.DataFrame.from_csv('data/dnm_jin_sifrim_formatted_30042018.tsv', 
+                                         sep='\t', 
+                                         encoding="utf-8", 
+                                         index_col=None)
+                                  
+
+# perform de novo enrichment analysis
+# use default gene rate (with GENCODE v19 aliases)
+
+rates = pd.DataFrame.from_csv('resources/mutation_rates_formatted_31072018.tsv', 
+                                         sep='\t', 
+                                         encoding="utf-8", 
+                                         index_col=None)
+                                         
+print(rates.head())
+    
+enrichment = analyse_enrichment(de_novos, trios, rates=rates)
+
+
+print(enrichment.head())
+
+# export results
+enrichment.to_csv('analysis/sifrim_jin_mupit_results_31072018.tsv', 
+                   sep='\t',
+                   encoding="utf-8", 
+                   index=None)
+
+```

@@ -15,7 +15,7 @@ df <- as.data.frame(dnm_janin_sifrim)
 # The default (VEP) format is a simple whitespace-separated format (columns may be separated by space or tab characters), 
 # containing five required columns plus an optional identifier column:
 #   
-#   1. chromosome - just the name or number, with no 'chr' prefix
+#   1. chromosome - just the name or number, without 'chr' prefix
 #   2. start
 #   3. end (start + length(ref) - 1) !
 #   4. allele - pair of alleles separated by a '/', with the reference allele first
@@ -80,7 +80,7 @@ dnm <- data.frame(person_id = 'None',
                   study_phenotype = 'None',
                   type = ifelse(nchar(refs) != nchar(alts), "indel", "snv"))
 
-# parse cosequence column
+# parse consequence column
 dnm$consequence <- unlist(lapply(as.character(dnm$consequence), function(x) unlist(strsplit(x, split = ',', fixed = T))[1]))
 
 

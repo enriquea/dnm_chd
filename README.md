@@ -8,10 +8,6 @@ testing was done to evaluate the impact of DNM at gene level
 <<<<<<< HEAD
 (MUPIT tool https://github.com/jeremymcrae/mupit). The analysis focused on rare 
 variants with MAF (gnomad) 0.1%.
-=======
-(MUPIT tool https://github.com/jeremymcrae/mupit). The analysis was focused on rare 
-variants (MAF 0.1%).
->>>>>>> ab2e05e1156d34ad5a797b6be4aeccac766d64b5
 
 #### Datasets
 

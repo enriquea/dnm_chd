@@ -4,13 +4,13 @@ library(readr)
 library(plyr)
 
 
-dnm_janin_sifrim <- read_delim("analysis/dnm/dnm_janin_sifrim_formatted.tsv",
+dnm_jin_sifrim <- read_delim("analysis/dnm/dnm_jin_sifrim_formatted.tsv",
                                "\t", 
                                escape_double = FALSE, 
                                trim_ws = TRUE)
 
 
-df <- as.data.frame(dnm_janin_sifrim)
+df <- as.data.frame(dnm_jin_sifrim)
 
 # The default (VEP) format is a simple whitespace-separated format (columns may be separated by space or tab characters), 
 # containing five required columns plus an optional identifier column:
@@ -29,14 +29,14 @@ df_vep <- data.frame(chromosome = df$chrom,
                      allele = paste(df$ref_allele, df$alt_allele, sep = '/'))
 
 write.table(df_vep, 
-            file = 'analysis/dnm/dnm_janin_sifrim_formatted_for_vep.txt',
+            file = 'data/dnm_jin_sifrim_formatted_for_vep.txt',
             sep = ' ',
             row.names = FALSE,
             col.names = FALSE,
             quote = FALSE)
 
 
-### Format DNM file to run MUPIT tool
+### DNM input file format to run MUPIT tool
 
 # expected columns 
 #
@@ -54,37 +54,48 @@ write.table(df_vep,
 # "type": ["snv"] 
 
 # parsing output vep
-vep_annotated <- read.delim("analysis/dnm/sifrim_janin_vep_reannotated_2018.txt", stringsAsFactors=FALSE)
+vep_annotated <- read.delim("data/dnm_jin_sifrim_veped_02122019.txt", 
+                            stringsAsFactors=FALSE,
+                            na.strings = '-')
 
 # retriving variant information
-variant_key <- lapply(vep_annotated$Uploaded_variation, function(x) unlist(strsplit(x, split = '_')))
+variant_key <- lapply(vep_annotated$Uploaded_variation, 
+                      function(x) unlist(strsplit(x, split = '_')))
 
-ref_alt <- lapply(variant_key, function(x) unlist(strsplit(x[3], split = '/')))
+ref_alt <- lapply(variant_key, 
+                  function(x) unlist(strsplit(x[3], split = '/')))
 
 refs <- vapply(ref_alt, function(x) x[[1]], character(1))
 
-alts <- vapply(ref_alt, function(x) x[[2]], character(1))
+# alts <- vapply(ref_alt, function(x) x[[2]], character(1))
 
-# build df
-
+# build dnm df
 dnm <- data.frame(person_id = 'None',
                   chrom = unlist(lapply(variant_key, function(x) x[1])),
                   start_pos = unlist(lapply(variant_key, function(x) x[2])),
                   end_pos = unlist(lapply(variant_key, function(x) x[2])),
                   ref_allele = unlist(lapply(ref_alt, function(x) x[1])),
-                  alt_allele = unlist(lapply(ref_alt, function(x) x[2])),
+                  alt_allele = vep_annotated$Allele,
                   hgnc = vep_annotated$SYMBOL,
                   consequence = vep_annotated$Consequence,
                   study_code = 'None',
                   publication_doi = 'None',
-                  study_phenotype = 'None',
-                  type = ifelse(nchar(refs) != nchar(alts), "indel", "snv"))
+                  study_phenotype = 'None')
 
-# parse consequence column
-dnm$consequence <- unlist(lapply(as.character(dnm$consequence), function(x) unlist(strsplit(x, split = ',', fixed = T))[1]))
+# annotate type of variant (snv or indel)
+dnm$type <- ifelse(nchar(as.character(dnm$alt_allele)) == 1 
+                   & nchar(as.character(dnm$ref_allele)) == 1, 
+                   "snv", "indel")
 
+# parse consequence column (get most severe consequence)
+dnm$consequence <- unlist(lapply(as.character(dnm$consequence), 
+                                 function(x) unlist(strsplit(x, split = ',', fixed = T))[1]))
 
-write.table(dnm, file = "analysis/dnm/dnm_janin_sifrim_formatted_30042018.tsv", 
+# remove variant with missing symbol/position
+dnm %>% filter(!is.na(start_pos), !is.na(hgnc)) -> dnm
+
+# export table
+write.table(dnm, file = "analysis/dnm_jin_sifrim_mupit_input_04122019.tsv", 
             row.names = FALSE, 
             sep = '\t', 
             quote = FALSE)

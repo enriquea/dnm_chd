@@ -5,6 +5,7 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = '/Users/enrique/projects/github/dnm_chd/')
 ```
 
 
@@ -69,7 +70,7 @@ write.table(dnm_snv, file = "data/dnm_janin_sifrim_formatted_30042018.tsv", row.
 from mupit.gene_enrichment import analyse_enrichment
 import pandas as pd
 
-trios = {"female": 0, "male": 1}
+trios = {"female": 1244, "male": 1244}
 
 # de_novos = pandas.DataFrame({
 #    "person_id": ["temp"],
@@ -87,10 +88,12 @@ trios = {"female": 0, "male": 1}
 #    })
 
 # getting DNM data
-de_novos = pd.DataFrame.from_csv('data/dnm_jin_sifrim_formatted_30042018.tsv', 
+de_novos = pd.DataFrame.from_csv('analysis/dnm_jin_sifrim_mupit_input_04122019.tsv', 
                                          sep='\t', 
                                          encoding="utf-8", 
                                          index_col=None)
+                                         
+print(de_novos.head())
                                   
 
 # perform de novo enrichment analysis
@@ -100,16 +103,14 @@ rates = pd.DataFrame.from_csv('resources/mutation_rates_formatted_31072018.tsv',
                                          sep='\t', 
                                          encoding="utf-8", 
                                          index_col=None)
-                                         
 print(rates.head())
     
 enrichment = analyse_enrichment(de_novos, trios, rates=rates)
 
-
 print(enrichment.head())
 
 # export results
-enrichment.to_csv('analysis/sifrim_jin_mupit_results_31072018.tsv', 
+enrichment.to_csv('analysis/sifrim_jin_mupit_results_10122019.tsv', 
                    sep='\t',
                    encoding="utf-8", 
                    index=None)

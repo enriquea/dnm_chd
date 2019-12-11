@@ -2,11 +2,11 @@
 
 #### Description
 
-We here combined the data from the two largest genetic studies in CHD and re-annotated 
+We here combined the data from two genetic studies in CHD and re-annotated 
 the dataset using the Variant Effect Predictor (v90) tool. A mutation rate-based 
 testing was done to evaluate the impact of DNM at gene level 
 (MUPIT tool https://github.com/jeremymcrae/mupit). The analysis focused on rare 
-variants with a MAF 0.1%.
+variants with MAF (gnomad) 0.1%.
 
 #### Datasets
 

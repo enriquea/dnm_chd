@@ -4,3 +4,6 @@
 .Ruserdata
 .Rproj
 .DS_Store
+./raw_data
+./helper_scripts
+./resources

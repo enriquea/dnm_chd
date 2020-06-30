@@ -1,0 +1,532 @@
+symbol	hgnc_id	expected	observed	p-value	info
+AGAP8	23464.0	0.02232631436990657	0.250198737724715	0.01531835151009476	probability of observing this or more number of mutations is too small
+ALPPL2	441.0	0.037417558803486926	0.14707706057356	0.12455172687463793	probability of observing this or more number of mutations is too small
+ATP5G1	841.0	0.005683441853228456	0.300952752817675	0.00710581734543417	probability of observing this or more number of mutations is too small
+BAI1	943.0	0.10029578211576384	0.838375540983127	0.00265719030618066	probability of observing this or more number of mutations is too small
+BAI2	944.0	0.09144987747425037	0.618143193116481	0.013743111855996831	probability of observing this or more number of mutations is too small
+BCMO1	13815.0	0.02280027493534248	0.304631995611072	0.023477870722038403	probability of observing this or more number of mutations is too small
+CD97	1711.0	0.047005933619907805	0.14807706057356	0.11282990780532606	probability of observing this or more number of mutations is too small
+ELTD1	20822.0	0.02267304184939402	0.001	1.0	observed < expected, pvalue set at 1
+EMR1	3336.0	0.02975955145988511	0.29448550745637603	0.02288619277534215	probability of observing this or more number of mutations is too small
+FAM175A	25829.0	0.019424018074903602	0.001	1.0	observed < expected, pvalue set at 1
+GLTSCR1	4332.0	0.07841177873055831	0.838375540983127	0.01167172630158083	probability of observing this or more number of mutations is too small
+GPR116	19030.0	0.04231891261485676	0.29415412114712	0.03906943149175172	probability of observing this or more number of mutations is too small
+GPR124	17849.0	0.09954540288500707	0.196610825725738	0.1768863462836614	probability of observing this or more number of mutations is too small
+GPR125	13839.0	0.0737482856323061	0.328374435710851	0.06098813643565259	probability of observing this or more number of mutations is too small
+GPR126	13841.0	0.04667654137158189	0.190654757297201	0.11245577320201325	probability of observing this or more number of mutations is too small
+GPR98	17416.0	0.23109374657106785	1.452151830595708	0.0008777498972292203	probability of observing this or more number of mutations is too small
+LPHN1	20973.0	0.10140278399538781	0.311273544400891	0.11142452766711691	probability of observing this or more number of mutations is too small
+LPHN3	20974.0	0.06926015098796054	0.551822597338217	0.011942691235813716	probability of observing this or more number of mutations is too small
+MEF2BNB	37247.0	0.02963115961486732	0.336333915856862	0.019956857901812446	probability of observing this or more number of mutations is too small
+MLLT4	7137.0	0.1270414834773265	0.7571578266495401	0.053347860493094416	probability of observing this or more number of mutations is too small
+SUPT5H	11469.0	0.06547020265634458	0.27424411233792895	0.12014314659033583	probability of observing this or more number of mutations is too small
+SUPT6H	11470.0	0.12077663833964677	0.548625609664018	0.07414369211194528	probability of observing this or more number of mutations is too small
+SUSD4	25470.0	0.025053826644966904	0.14707706057356	0.097482405981855	probability of observing this or more number of mutations is too small
+SVEP1	15985.0	0.19162922773720983	1.478065353645607	0.005434561342840783	probability of observing this or more number of mutations is too small
+SYBU	26011.0	0.03238981666468807	0.433234314811936	0.01598995258244108	probability of observing this or more number of mutations is too small
+SYCP2L	21537.0	0.026506319370202064	0.14707706057356	0.11844373394433	probability of observing this or more number of mutations is too small
+SYNE2	17084.0	0.2337308561676851	0.14707706057356	1.0	observed < expected, pvalue set at 1
+SYNGAP1	11497.0	0.1745784538435003	0.001	1.0	observed < expected, pvalue set at 1
+SYNGR1	11498.0	0.018682259273433397	0.001	1.0	observed < expected, pvalue set at 1
+SYNM	24466.0	0.0717635713438669	0.001	1.0	observed < expected, pvalue set at 1
+SYNPR	16507.0	0.014141545750994128	0.206401767766572	0.031472302284884165	probability of observing this or more number of mutations is too small
+SYT13	14962.0	0.0199113103427266	0.001	1.0	observed < expected, pvalue set at 1
+SYT15	17167.0	0.025775123321930694	0.001	1.0	observed < expected, pvalue set at 1
+SYT3	11511.0	0.03259819710891339	0.001	1.0	observed < expected, pvalue set at 1
+SYTL2	15585.0	0.06594814266469033	0.327941605661282	0.06152696368924293	probability of observing this or more number of mutations is too small
+SYTL3	15587.0	0.026758256998037046	0.14707706057356	0.1110349133790732	probability of observing this or more number of mutations is too small
+SZRD1	30232.0	0.011705551986981364	0.001	1.0	observed < expected, pvalue set at 1
+TAAR6	20978.0	0.01043804164830084	0.001	1.0	observed < expected, pvalue set at 1
+TAB1	18157.0	0.02911335956611643	0.30004658130366496	0.04153209616495666	probability of observing this or more number of mutations is too small
+TAB2	17075.0	0.02654832452494919	1.9104429023083478	1.1787944924706654e-10	probability of observing this or more number of mutations is too small
+TACC2	11523.0	0.10522091333118594	0.18826948507173602	0.2084341809185272	probability of observing this or more number of mutations is too small
+TAF1	11535.0	0.10417572624041671	1.341700919951266	0.004805584939535107	probability of observing this or more number of mutations is too small
+TAF1L	18056.0	0.06615114706516048	0.300952752817675	0.06354206031954054	probability of observing this or more number of mutations is too small
+TAF4	11537.0	0.06133480778223028	0.316744230968516	0.05187487842778963	probability of observing this or more number of mutations is too small
+TAGLN	11553.0	0.010505916611482579	0.29636152251219605	0.0145311362820387	probability of observing this or more number of mutations is too small
+TAL2	11557.0	0.004151518061061587	0.001	1.0	observed < expected, pvalue set at 1
+TANC1	29364.0	0.09910651992484226	0.7571578266495401	0.03408287745076721	probability of observing this or more number of mutations is too small
+TANC2	30212.0	0.10235970649304321	0.411484880953635	0.07611359655379997	probability of observing this or more number of mutations is too small
+TAOK1	29259.0	0.07787510741261891	0.652480162350303	0.050891473259285044	probability of observing this or more number of mutations is too small
+TARBP1	11568.0	0.10228292106207784	0.14807706057356	0.20812500415732474	probability of observing this or more number of mutations is too small
+TARS2	30740.0	0.03663245527555419	0.307955433012906	0.0481536501731411	probability of observing this or more number of mutations is too small
+TAS2R14	14920.0	0.008524033706006998	0.5504821343896079	0.00015557059932546803	probability of observing this or more number of mutations is too small
+TAX1BP1	11575.0	0.03552447263927103	0.001	1.0	observed < expected, pvalue set at 1
+TBC1D1	11578.0	0.07380350839801074	0.34796431289969804	0.05561648037294991	probability of observing this or more number of mutations is too small
+TBC1D19	25624.0	0.02261936588270371	0.717865821303753	0.00041395753783073265	probability of observing this or more number of mutations is too small
+TBC1D20	16133.0	0.019960804362073446	0.426189613666812	0.007404909782348432	probability of observing this or more number of mutations is too small
+TBC1D30	29164.0	0.04937732846778024	0.30274564707125	0.05959418957198937	probability of observing this or more number of mutations is too small
+TBC1D4	19165.0	0.06400689654244796	0.315990550203252	0.08401883956992502	probability of observing this or more number of mutations is too small
+TBC1D9B	29097.0	0.06759555562489811	0.001	1.0	observed < expected, pvalue set at 1
+TBCD	11581.0	0.06406307651830351	0.001	1.0	observed < expected, pvalue set at 1
+TBL3	11587.0	0.04288694791540243	0.001	1.0	observed < expected, pvalue set at 1
+TBX1	11592.0	0.05362477613027178	0.326795060041807	0.059230048167626656	probability of observing this or more number of mutations is too small
+TBX18	11595.0	0.038243875824515834	1.065872110479609	0.0006981558756299573	probability of observing this or more number of mutations is too small
+TBX19	11596.0	0.018913329546175743	0.001	1.0	observed < expected, pvalue set at 1
+TBX2	11597.0	0.0555858177575238	0.47615466797885203	0.021346525272586733	probability of observing this or more number of mutations is too small
+TBX5	11604.0	0.030357908977340396	1.5275750110311308	4.5581392108276074e-05	probability of observing this or more number of mutations is too small
+TCAIM	25241.0	0.020049734965958396	0.14707706057356	0.07304056336541712	probability of observing this or more number of mutations is too small
+TCERG1	15630.0	0.06919062024772797	0.001	1.0	observed < expected, pvalue set at 1
+TCF12	11623.0	0.0389952534387926	0.7405997715513959	0.013585247803231018	probability of observing this or more number of mutations is too small
+TCF7L2	11641.0	0.06993212688861664	0.820587725908942	0.018263641985687536	probability of observing this or more number of mutations is too small
+TDRD7	30831.0	0.039846435028691694	0.346435093148541	0.03043833407247912	probability of observing this or more number of mutations is too small
+TDRD9	20122.0	0.05593982781767535	0.297291455108301	0.06405072246460282	probability of observing this or more number of mutations is too small
+TEAD1	11714.0	0.02346072707287747	0.001	1.0	observed < expected, pvalue set at 1
+TECPR1	22214.0	0.07145958148372478	0.32307105205978404	0.0827345838157046	probability of observing this or more number of mutations is too small
+TECPR2	19957.0	0.06879712048669409	0.32307105205978404	0.09125220601036119	probability of observing this or more number of mutations is too small
+TECTA	11720.0	0.11250225247883684	1.549934355257219	2.1755144725567638e-05	probability of observing this or more number of mutations is too small
+TEKT2	11725.0	0.022769336939303438	0.29258930574791997	0.029819908200759228	probability of observing this or more number of mutations is too small
+TEKT3	14293.0	0.02202054899079199	0.33060413133020194	0.017487632291483608	probability of observing this or more number of mutations is too small
+TENM1	8117.0	0.0739280275918042	0.312881910965682	0.08723773143859005	probability of observing this or more number of mutations is too small
+TENM2	29943.0	0.1450014831114611	0.29453982783838695	0.21169860090042733	probability of observing this or more number of mutations is too small
+TENM4	29945.0	0.15031064093663843	0.638729568496433	0.03554010880760579	probability of observing this or more number of mutations is too small
+TERF2	11729.0	0.04928404236395861	0.315990550203252	0.05812048606113035	probability of observing this or more number of mutations is too small
+TERT	11730.0	0.05830883032494118	0.14707706057356	0.2734754202212457	probability of observing this or more number of mutations is too small
+TESK2	11732.0	0.028763256907090022	0.001	1.0	observed < expected, pvalue set at 1
+TESPA1	29109.0	0.020894192486685677	0.001	1.0	observed < expected, pvalue set at 1
+TEX14	11737.0	0.05606868072927086	0.14807706057356	0.15813812662754048	probability of observing this or more number of mutations is too small
+TEX15	11738.0	0.0731752442846441	0.29415412114712	0.08439155408053409	probability of observing this or more number of mutations is too small
+TFAP2B	11743.0	0.02987456233518967	0.28641851761357	0.0503931411776581	probability of observing this or more number of mutations is too small
+TFDP1	11749.0	0.032377752630456905	0.7443317854522858	0.01576289661056826	probability of observing this or more number of mutations is too small
+TFE3	11752.0	0.020685237831801418	0.838375540983127	0.0035636958382480838	probability of observing this or more number of mutations is too small
+TFEB	11753.0	0.02771610897328914	0.346435093148541	0.021417380501653985	probability of observing this or more number of mutations is too small
+TFIP11	17165.0	0.042246471050612515	0.29258930574791997	0.06478717897669814	probability of observing this or more number of mutations is too small
+TGFBR2	11773.0	0.027101137122819686	0.34039816211096996	0.022457782997931178	probability of observing this or more number of mutations is too small
+TGFBR3	11774.0	0.033008493320258396	0.33845280222098106	0.026817533166324566	probability of observing this or more number of mutations is too small
+TGM2	11778.0	0.03520600486535893	0.14707706057356	0.14373113714650562	probability of observing this or more number of mutations is too small
+TGM6	16255.0	0.0337601503656008	0.289686497870187	0.03821413707662263	probability of observing this or more number of mutations is too small
+THADA	19217.0	0.07194241729807799	0.47615466797885203	0.03294205993777468	probability of observing this or more number of mutations is too small
+THBS2	11786.0	0.07174290200250036	0.7249541930377109	0.024874934337349264	probability of observing this or more number of mutations is too small
+THOC7	29874.0	0.010388488454887549	0.001	1.0	observed < expected, pvalue set at 1
+THUMPD3	24493.0	0.020848428573798792	0.14707706057356	0.07673255828348217	probability of observing this or more number of mutations is too small
+TIAM1	11805.0	0.09526739882691848	0.001	1.0	observed < expected, pvalue set at 1
+TIAM2	11806.0	0.07995509616075468	0.19036138034595898	0.17930158922549327	probability of observing this or more number of mutations is too small
+TICRR	28704.0	0.0921124643184205	0.14707706057356	0.2869894394988092	probability of observing this or more number of mutations is too small
+TIE1	11809.0	0.06733588565545481	0.34401518768361206	0.06498321846165919	probability of observing this or more number of mutations is too small
+TIFAB	34024.0	0.005717333402735673	0.001	1.0	observed < expected, pvalue set at 1
+TIGD7	18331.0	0.01638348176958371	0.14707706057356	0.08037271420766585	probability of observing this or more number of mutations is too small
+TIMM10	11814.0	0.0046273306453443915	0.338856093681875	0.005498907939230026	probability of observing this or more number of mutations is too small
+TIMM44	17316.0	0.025637398477731433	0.14707706057356	0.10276204187248733	probability of observing this or more number of mutations is too small
+TIPARP	23696.0	0.023374451550839965	0.001	1.0	observed < expected, pvalue set at 1
+TJP2	11828.0	0.07008358663757086	0.7325919198116629	0.0039001932126912927	probability of observing this or more number of mutations is too small
+TJP3	11829.0	0.05466398528080914	0.14807706057356	0.1578850157916732	probability of observing this or more number of mutations is too small
+TLCD2	33522.0	0.010766138407446935	0.18903866365448002	0.015601175968473689	probability of observing this or more number of mutations is too small
+TLE1	11837.0	0.05338264384775802	0.233689696751154	0.11705066959590908	probability of observing this or more number of mutations is too small
+TLK1	11841.0	0.06200337646563324	0.7642645944886071	0.03064223155060067	probability of observing this or more number of mutations is too small
+TLK2	11842.0	0.07765948542624705	0.838375540983127	0.01954020036644454	probability of observing this or more number of mutations is too small
+TLN1	11845.0	0.1620440863824522	0.6576880186665481	0.07982128746699446	probability of observing this or more number of mutations is too small
+TLR9	15633.0	0.04533971997222213	0.14707706057356	0.2006522817196419	probability of observing this or more number of mutations is too small
+TM2D2	24127.0	0.015411057178046458	0.297291455108301	0.022657606197048232	probability of observing this or more number of mutations is too small
+TM4SF20	26230.0	0.006673442748585476	0.14707706057356	0.032169632277028175	probability of observing this or more number of mutations is too small
+TM7SF3	23049.0	0.02326264428066216	0.327374435710851	0.0206012679790786	probability of observing this or more number of mutations is too small
+TM9SF1	11864.0	0.04194519399081094	0.303631995611072	0.05560232959465414	probability of observing this or more number of mutations is too small
+TM9SF3	21529.0	0.027737997048275988	0.34401518768361206	0.025453192245376857	probability of observing this or more number of mutations is too small
+TMC2	16527.0	0.04205972497437489	0.44666748358546204	0.01747454394984245	probability of observing this or more number of mutations is too small
+TMC5	22999.0	0.03991658361223319	0.001	1.0	observed < expected, pvalue set at 1
+TMC6	18021.0	0.038870709105737304	0.337625480075764	0.02625844048690307	probability of observing this or more number of mutations is too small
+TMCO3	20329.0	0.03066268231633929	0.14707706057356	0.12973444888183225	probability of observing this or more number of mutations is too small
+TMED1	17291.0	0.014543284711708805	0.315990550203252	0.01700527327586942	probability of observing this or more number of mutations is too small
+TMED10	16998.0	0.012628216375797273	0.271137781842496	0.026328073948432045	probability of observing this or more number of mutations is too small
+TMED5	24251.0	0.010839186413755107	0.001	1.0	observed < expected, pvalue set at 1
+TMEM125	28275.0	0.011007441287937585	0.001	1.0	observed < expected, pvalue set at 1
+TMEM127	26038.0	0.01454536089900231	0.318946335373382	0.017383664023613486	probability of observing this or more number of mutations is too small
+TMEM133	24033.0	0.003241624195536996	0.14707706057356	0.019201605319247483	probability of observing this or more number of mutations is too small
+TMEM135	26167.0	0.020910044911249055	0.001	1.0	observed < expected, pvalue set at 1
+TMEM138	26944.0	0.007148976417774954	0.18149390011692104	0.01983931191429331	probability of observing this or more number of mutations is too small
+TMEM145	26912.0	0.034479222301324754	0.001	1.0	observed < expected, pvalue set at 1
+TMEM161B	28483.0	0.02337068830737008	0.16627075786490803	0.06275418273835928	probability of observing this or more number of mutations is too small
+TMEM175	28709.0	0.023080936403675284	0.001	1.0	observed < expected, pvalue set at 1
+TMEM18	25257.0	0.0066273878931964085	0.001	1.0	observed < expected, pvalue set at 1
+TMEM184A	28797.0	0.021601207906630462	0.281409997104618	0.020185141516701456	probability of observing this or more number of mutations is too small
+TMEM200A	21075.0	0.018172890406631406	0.002	1.0	observed < expected, pvalue set at 1
+TMEM214	25983.0	0.03323855494760014	0.327941605661282	0.030748946367717977	probability of observing this or more number of mutations is too small
+TMEM232	37270.0	0.020413371370628493	0.299134179531649	0.01674267128508587	probability of observing this or more number of mutations is too small
+TMEM242	17206.0	0.0076941248045873135	0.001	1.0	observed < expected, pvalue set at 1
+TMEM245	1363.0	0.05151920650167491	0.838375540983127	0.009840808926120144	probability of observing this or more number of mutations is too small
+TMEM26	28550.0	0.0177532727330136	0.34896431289969804	0.009624658606371872	probability of observing this or more number of mutations is too small
+TMEM31	28601.0	0.003621032706575473	0.001	1.0	observed < expected, pvalue set at 1
+TMEM38B	25535.0	0.01030465502943425	0.316744230968516	0.007000290971302884	probability of observing this or more number of mutations is too small
+TMEM43	28472.0	0.019787018039181453	0.295426139853306	0.024876090334545044	probability of observing this or more number of mutations is too small
+TMEM54	24143.0	0.010743332280489687	0.29163414820366	0.011187691549454561	probability of observing this or more number of mutations is too small
+TMEM63A	29118.0	0.0342319463463897	0.14707706057356	0.13184119257386717	probability of observing this or more number of mutations is too small
+TMEM67	28396.0	0.0408018972780089	0.313672830982936	0.04430080453960286	probability of observing this or more number of mutations is too small
+TMEM68	26510.0	0.014302234818437837	0.001	1.0	observed < expected, pvalue set at 1
+TMEM71	26572.0	0.010799848801876191	0.284002117420271	0.01056871716621305	probability of observing this or more number of mutations is too small
+TMEM81	32349.0	0.008308676053076992	0.001	1.0	observed < expected, pvalue set at 1
+TMEM86B	28448.0	0.008507753608668457	0.001	1.0	observed < expected, pvalue set at 1
+TMEM8A	17205.0	0.03828101765392284	0.313672830982936	0.03014350878490394	probability of observing this or more number of mutations is too small
+TMF1	11870.0	0.04190256728612224	0.465084805166746	0.01885224246163724	probability of observing this or more number of mutations is too small
+TMPO	11875.0	0.03379546528542121	0.001	1.0	observed < expected, pvalue set at 1
+TMPRSS2	11876.0	0.022597022190247503	0.303631995611072	0.017763635252180932	probability of observing this or more number of mutations is too small
+TMPRSS7	30846.0	0.03633678728340669	0.797201271163118	0.00047926839935273847	probability of observing this or more number of mutations is too small
+TMTC2	25440.0	0.03558418083949357	0.30004658130366496	0.04567370344295345	probability of observing this or more number of mutations is too small
+TNFAIP1	11894.0	0.019427936446898497	0.327941605661282	0.02265153734073742	probability of observing this or more number of mutations is too small
+TNFRSF10B	11905.0	0.014982151710091419	0.001	1.0	observed < expected, pvalue set at 1
+TNFRSF14	11912.0	0.011281699050657564	0.001	1.0	observed < expected, pvalue set at 1
+TNFRSF21	13469.0	0.034682666765683406	0.282727240281655	0.05013767305312483	probability of observing this or more number of mutations is too small
+TNFRSF25	11910.0	0.039737513998574836	0.7462119182187049	0.01970592487813115	probability of observing this or more number of mutations is too small
+TNK2	19297.0	0.08340373700050069	0.001	1.0	observed < expected, pvalue set at 1
+TNKS	11941.0	0.06918760701264201	0.30551136540264195	0.10879955499487601	probability of observing this or more number of mutations is too small
+TNNI2	11946.0	0.00860626365295821	0.29448550745637603	0.00550111636697064	probability of observing this or more number of mutations is too small
+TNPO3	17103.0	0.07692310713012335	1.4893180384556661	0.0013900091733646696	probability of observing this or more number of mutations is too small
+TNR	11953.0	0.0850845594206268	0.7859116819716769	0.030702843644135377	probability of observing this or more number of mutations is too small
+TNRC18	11962.0	0.17034621143398507	0.461531747735502	0.09661726206629598	probability of observing this or more number of mutations is too small
+TNS1	11973.0	0.09059740556521283	0.663191627666077	0.009181488709510915	probability of observing this or more number of mutations is too small
+TNS3	21616.0	0.0848824618713657	0.30274564707125	0.09704951687800022	probability of observing this or more number of mutations is too small
+TNXB	11976.0	0.26348532059821955	0.304631995611072	0.2979716368746413	probability of observing this or more number of mutations is too small
+TOB2	11980.0	0.014104310408690951	0.301852504089027	0.013694782443088154	probability of observing this or more number of mutations is too small
+TOE1	15954.0	0.024417689510289328	0.14807706057356	0.0697719918768658	probability of observing this or more number of mutations is too small
+TOM1	11982.0	0.030375109910504926	0.32956835321765005	0.03383150487748925	probability of observing this or more number of mutations is too small
+TOM1L1	11983.0	0.018052628813706558	0.18977399775582998	0.043147154031903265	probability of observing this or more number of mutations is too small
+TOMM40L	25756.0	0.01467551367553541	0.327374435710851	0.0124383908870135	probability of observing this or more number of mutations is too small
+TONSL	7801.0	0.06664630514480901	0.14707706057356	0.26420122356622017	probability of observing this or more number of mutations is too small
+TOP1MT	29787.0	0.03387081391339397	0.281409997104618	0.03370830609429189	probability of observing this or more number of mutations is too small
+TOP2B	11990.0	0.0798047608455935	0.346435093148541	0.06748889152421986	probability of observing this or more number of mutations is too small
+TP53	11998.0	0.026464565179877077	0.418936667990117	0.015910115700323003	probability of observing this or more number of mutations is too small
+TP53INP1	18022.0	0.009651022996630614	0.19478587775333603	0.024022023899867052	probability of observing this or more number of mutations is too small
+TP63	15979.0	0.043715956648765104	0.289686497870187	0.07347822716065525	probability of observing this or more number of mutations is too small
+TP73	12003.0	0.041768626959425424	0.3096309302579	0.038044813736392895	probability of observing this or more number of mutations is too small
+TPCN2	20820.0	0.03567279731827622	0.47615466797885203	0.009932651281685946	probability of observing this or more number of mutations is too small
+TPD52L1	12006.0	0.0106321542038949	0.17956669078082102	0.028688021863033902	probability of observing this or more number of mutations is too small
+TPD52L2	12007.0	0.01025765043004192	0.34796431289969804	0.00658326193425986	probability of observing this or more number of mutations is too small
+TPO	12015.0	0.06850061021576133	0.001	1.0	observed < expected, pvalue set at 1
+TPP2	12016.0	0.06759142844559686	0.701607398264954	0.030918037892395285	probability of observing this or more number of mutations is too small
+TPRA1	30413.0	0.01813913340607357	0.30004658130366496	0.02170016539004673	probability of observing this or more number of mutations is too small
+TPRG1	24759.0	0.011561925530784634	0.1908013641067	0.025843196655460157	probability of observing this or more number of mutations is too small
+TPSD1	14118.0	0.00993113786808864	0.001	1.0	observed < expected, pvalue set at 1
+TPTE	12023.0	0.019984329359916654	0.14707706057356	0.09552418164681652	probability of observing this or more number of mutations is too small
+TRABD	28805.0	0.023690906745684824	0.28641851761357	0.03154902870834078	probability of observing this or more number of mutations is too small
+TRAF3	12033.0	0.04343535910588338	0.74126308372406	0.015531271207941072	probability of observing this or more number of mutations is too small
+TRAF7	20456.0	0.04319338826190324	0.321739018293181	0.03601121239627557	probability of observing this or more number of mutations is too small
+TRAIP	30764.0	0.022285597798595617	0.29358930574791997	0.02994816345491692	probability of observing this or more number of mutations is too small
+TRAP1	16264.0	0.03992594099338774	0.001	1.0	observed < expected, pvalue set at 1
+TRAPPC10	11868.0	0.05867110873740824	0.31822228358327803	0.07580256858191112	probability of observing this or more number of mutations is too small
+TRIB2	30809.0	0.021317367478347355	0.335440140687682	0.015324418403605895	probability of observing this or more number of mutations is too small
+TRIM10	10072.0	0.020214277801033034	0.295426139853306	0.015183109166774343	probability of observing this or more number of mutations is too small
+TRIM2	15974.0	0.039780763885750484	0.001	1.0	observed < expected, pvalue set at 1
+TRIM25	12932.0	0.048828745196468425	0.7462119182187049	0.023073023019770544	probability of observing this or more number of mutations is too small
+TRIM28	16384.0	0.03993677305877737	0.241711153324901	0.0507147774746585	probability of observing this or more number of mutations is too small
+TRIM3	10064.0	0.04751155054952634	0.001	1.0	observed < expected, pvalue set at 1
+TRIM37	7523.0	0.05895897581315677	0.34401518768361206	0.05284818283792636	probability of observing this or more number of mutations is too small
+TRIM41	19013.0	0.032505230986279644	0.21843442520348103	0.04444688790003038	probability of observing this or more number of mutations is too small
+TRIM47	19020.0	0.05936684488282469	0.339252359641166	0.05939990666255615	probability of observing this or more number of mutations is too small
+TRIM5	16276.0	0.019702603270058298	0.001	1.0	observed < expected, pvalue set at 1
+TRIM55	14215.0	0.02361323335580359	0.001	1.0	observed < expected, pvalue set at 1
+TRIM58	24150.0	0.02537065770749318	0.001	1.0	observed < expected, pvalue set at 1
+TRIM6	16277.0	0.019970305460875287	0.181197328730295	0.044937912171189635	probability of observing this or more number of mutations is too small
+TRIM62	25574.0	0.03294016608620741	0.324985227167362	0.028156640327412198	probability of observing this or more number of mutations is too small
+TRIM63	16007.0	0.016932842419361438	0.305383573941161	0.025313482783949598	probability of observing this or more number of mutations is too small
+TRIM65	27316.0	0.024931890413741987	0.18948000624445896	0.043402326377988264	probability of observing this or more number of mutations is too small
+TRIM67	31859.0	0.049104081747621445	0.31748819559224295	0.05462893925909309	probability of observing this or more number of mutations is too small
+TRIML1	26698.0	0.01444538196574515	0.001	1.0	observed < expected, pvalue set at 1
+TRIP12	12306.0	0.14760741977830372	1.6284807817294482	0.0022076783824053338	probability of observing this or more number of mutations is too small
+TRIP4	12310.0	0.02748160626200085	0.47615466797885203	0.012013644766669669	probability of observing this or more number of mutations is too small
+TRMT13	25502.0	0.018485920113651334	0.14707706057356	0.07318956620816441	probability of observing this or more number of mutations is too small
+TRMT44	26653.0	0.03319531513966942	0.282727240281655	0.03579585533974807	probability of observing this or more number of mutations is too small
+TRPC5	12337.0	0.058218784460542475	0.7859116819716769	0.020949834200004677	probability of observing this or more number of mutations is too small
+TRPM6	17995.0	0.08345030529046185	0.47615466797885203	0.044057089433537644	probability of observing this or more number of mutations is too small
+TRPM8	17961.0	0.05391486177957402	0.47615466797885203	0.021132813253530534	probability of observing this or more number of mutations is too small
+TRPS1	12340.0	0.05703262602799841	0.7678773593924398	0.021224913244545354	probability of observing this or more number of mutations is too small
+TRPV4	18083.0	0.05359911436338591	0.7324473396555501	0.01580610898799342	probability of observing this or more number of mutations is too small
+TRRAP	12347.0	0.3160535805440738	0.9539665409125602	0.08591839995049744	probability of observing this or more number of mutations is too small
+TSC1	12362.0	0.05285796040647571	0.9908294212065101	0.00017173185747003237	probability of observing this or more number of mutations is too small
+TSC2	12363.0	0.09576934637868721	0.001	1.0	observed < expected, pvalue set at 1
+TSC22D2	29095.0	0.03906166059854664	0.40250298086988395	0.01779328142487041	probability of observing this or more number of mutations is too small
+TSEN2	28422.0	0.022628863973717526	0.47615466797885203	0.008217120507236416	probability of observing this or more number of mutations is too small
+TSGA13	12369.0	0.010078719574771133	0.14707706057356	0.04693747425100871	probability of observing this or more number of mutations is too small
+TSHR	12373.0	0.02931702462494034	0.2196369207728	0.052775854348716116	probability of observing this or more number of mutations is too small
+TSHZ1	10669.0	0.03683428681495866	0.640003025886374	0.0004916768218655738	probability of observing this or more number of mutations is too small
+TSKS	30719.0	0.030797142996457295	0.002	1.0	observed < expected, pvalue set at 1
+TSN	12379.0	0.031231823070871665	0.34796431289969804	0.041861693973942106	probability of observing this or more number of mutations is too small
+TSNAXIP1	18586.0	0.030128018892221844	0.20380329764565602	0.05678475527383749	probability of observing this or more number of mutations is too small
+TSPYL1	12382.0	0.02061090062744458	0.18208706200661898	0.047812902904468754	probability of observing this or more number of mutations is too small
+TSPYL2	24358.0	0.01753956880998397	0.14707706057356	0.08529315086975349	probability of observing this or more number of mutations is too small
+TSSC4	12386.0	0.012523066440963682	0.31748819559224295	0.004513585365330105	probability of observing this or more number of mutations is too small
+TTC1	12391.0	0.012816024393004643	0.22501186516868302	0.023775685558082068	probability of observing this or more number of mutations is too small
+TTC14	24697.0	0.031095354228238035	0.28523306193954306	0.044462628670588304	probability of observing this or more number of mutations is too small
+TTC17	25596.0	0.055778964563470694	0.334052081797976	0.06271629663143141	probability of observing this or more number of mutations is too small
+TTC21B	25660.0	0.05460285690953627	0.193410176438119	0.12657199917038944	probability of observing this or more number of mutations is too small
+TTC39A	18657.0	0.03403796898401563	0.31748819559224295	0.036055613119066236	probability of observing this or more number of mutations is too small
+TTC7A	19750.0	0.04695194243313873	0.001	1.0	observed < expected, pvalue set at 1
+TTI1	29029.0	0.03679072796582403	0.14707706057356	0.15707440446566917	probability of observing this or more number of mutations is too small
+TTK	12401.0	0.03003246032505835	0.14707706057356	0.11857329754318718	probability of observing this or more number of mutations is too small
+TTLL1	1312.0	0.024705426318953283	0.298215739468792	0.03354113210088122	probability of observing this or more number of mutations is too small
+TTLL5	19963.0	0.06654232795089715	0.29358930574791997	0.10171827595877836	probability of observing this or more number of mutations is too small
+TTLL6	26664.0	0.03555061003596446	0.14707706057356	0.14664067876770495	probability of observing this or more number of mutations is too small
+TTLL7	26242.0	0.04322641848981612	0.29163414820366	0.07162591413777139	probability of observing this or more number of mutations is too small
+TTN	12403.0	1.250199836161628	2.1162202963613646	0.07633495330065371	probability of observing this or more number of mutations is too small
+TTYH1	13476.0	0.027895200789420205	0.324358557756721	0.02030835998744131	probability of observing this or more number of mutations is too small
+TUBA1C	20768.0	0.04024422866189631	0.328941605661282	0.05798017016337337	probability of observing this or more number of mutations is too small
+TUBB6	20776.0	0.025293577283670206	0.338856093681875	0.011798218651486145	probability of observing this or more number of mutations is too small
+TUBGCP2	18599.0	0.047737149007831055	0.289686497870187	0.06774180594285206	probability of observing this or more number of mutations is too small
+TUBGCP5	18600.0	0.04557403410900677	0.001	1.0	observed < expected, pvalue set at 1
+TUFM	12420.0	0.027343724741949817	0.30451136540264195	0.04015140993449432	probability of observing this or more number of mutations is too small
+TULP4	15530.0	0.11521313772353314	1.521709566592627	0.0019316954811053526	probability of observing this or more number of mutations is too small
+TWF2	9621.0	0.022084275360413408	0.14707706057356	0.07643963468107988	probability of observing this or more number of mutations is too small
+TXNIP	16952.0	0.01925148473126026	0.001	1.0	observed < expected, pvalue set at 1
+TYRP1	12450.0	0.022280853329580984	0.47615466797885203	0.007098179871611316	probability of observing this or more number of mutations is too small
+U2AF1L4	23020.0	0.011496798960634198	0.176016968662007	0.026546797284616154	probability of observing this or more number of mutations is too small
+U2SURP	30855.0	0.061333170625282804	1.6069486445273091	0.00033374848760778236	probability of observing this or more number of mutations is too small
+UACA	15947.0	0.05128910130510759	0.28755693636381396	0.07184093873209788	probability of observing this or more number of mutations is too small
+UBAP1L	40028.0	0.018734705533173256	0.305383573941161	0.011728987129107032	probability of observing this or more number of mutations is too small
+UBAP2	14185.0	0.04677910914306828	0.001	1.0	observed < expected, pvalue set at 1
+UBASH3B	29884.0	0.035894673729420436	0.28005196697704304	0.06746127911746545	probability of observing this or more number of mutations is too small
+UBC	12468.0	0.060678067019331046	0.316744230968516	0.10031732487436415	probability of observing this or more number of mutations is too small
+UBE2B	12473.0	0.02136739169395127	0.34401518768361206	0.02785194835463237	probability of observing this or more number of mutations is too small
+UBE2E1	12477.0	0.010274183180216953	0.29258930574791997	0.01628614718931984	probability of observing this or more number of mutations is too small
+UBE2H	12484.0	0.025825294080685943	0.324985227167362	0.03632759380245457	probability of observing this or more number of mutations is too small
+UBE2R2	19907.0	0.026651775237907616	0.001	1.0	observed < expected, pvalue set at 1
+UBE3C	16803.0	0.06083961243203976	0.7491832043295179	0.02333043040434535	probability of observing this or more number of mutations is too small
+UBQLN1	12508.0	0.03456785770335987	0.14707706057356	0.09156166826499738	probability of observing this or more number of mutations is too small
+UBR1	16808.0	0.08622717683299252	1.135666996091428	0.002674340731281175	probability of observing this or more number of mutations is too small
+UBR3	30467.0	0.11377702028302325	1.424297500723788	0.0022375031213736573	probability of observing this or more number of mutations is too small
+UBR4	30313.0	0.30340974523628955	1.7527627012241653	0.004216122176887519	probability of observing this or more number of mutations is too small
+UBR5	16806.0	0.20549310003760649	0.7622059647347841	0.10859174451605777	probability of observing this or more number of mutations is too small
+UBTF	12511.0	0.096867233323385	0.30274564707125	0.1262712640267412	probability of observing this or more number of mutations is too small
+UBXN11	30600.0	0.026902521640248853	0.19006779148105302	0.05536270721276087	probability of observing this or more number of mutations is too small
+UBXN2B	27035.0	0.014093478035889031	0.33498368846613297	0.01054963696579064	probability of observing this or more number of mutations is too small
+UCHL3	12515.0	0.01432675671713016	0.470743013868311	0.004569432637384537	probability of observing this or more number of mutations is too small
+UCP2	12518.0	0.019516227796015074	0.001	1.0	observed < expected, pvalue set at 1
+UFL1	23039.0	0.034196100770903314	0.6466591918943201	0.0017387520615925862	probability of observing this or more number of mutations is too small
+UGGT1	15663.0	0.0794840052947498	0.7402125574876691	0.036053853156656365	probability of observing this or more number of mutations is too small
+UGT2B11	12545.0	0.013973620273684227	0.418936667990117	0.006228996838374893	probability of observing this or more number of mutations is too small
+UGT2B4	12553.0	0.014505255943325994	0.284002117420271	0.009160520620086899	probability of observing this or more number of mutations is too small
+UGT8	12555.0	0.020305148110673913	0.198328136745209	0.05112307543898369	probability of observing this or more number of mutations is too small
+UHRF1BP1	21216.0	0.05673111051720105	0.001	1.0	observed < expected, pvalue set at 1
+UHRF2	12557.0	0.06102676997912569	0.31822228358327803	0.07217039883969545	probability of observing this or more number of mutations is too small
+ULK1	12558.0	0.09559361954467248	0.7629851854774821	0.03955747820629753	probability of observing this or more number of mutations is too small
+UMODL1	12560.0	0.052716043411834806	0.8651344895301569	0.00030121576524029476	probability of observing this or more number of mutations is too small
+UMPS	12563.0	0.03219463863403398	0.14707706057356	0.08064683415403187	probability of observing this or more number of mutations is too small
+UNC13C	23149.0	0.08506650371695212	0.8079473713259469	0.003398987567307342	probability of observing this or more number of mutations is too small
+UNC13D	23147.0	0.058307796537172434	0.001	1.0	observed < expected, pvalue set at 1
+UNC5B	12568.0	0.05540954788131053	0.321739018293181	0.06963576458472388	probability of observing this or more number of mutations is too small
+UNC5D	18634.0	0.04709594902634763	0.307105785961931	0.0644021854475345	probability of observing this or more number of mutations is too small
+UNC79	19966.0	0.14520893721446548	0.548689659528498	0.07753037114414635	probability of observing this or more number of mutations is too small
+UNCX	33194.0	0.031238946838981957	0.28755693636381396	0.021412851135538	probability of observing this or more number of mutations is too small
+UNKL	14184.0	0.06531976702669924	0.320363696353931	0.05061964170484876	probability of observing this or more number of mutations is too small
+UPF1	9962.0	0.16105573978571003	0.6560972807272831	0.13210555919525008	probability of observing this or more number of mutations is too small
+UPF2	17854.0	0.06595764562778045	0.838375540983127	0.01806331731199377	probability of observing this or more number of mutations is too small
+UPK1B	12578.0	0.010883808128160186	0.297291455108301	0.011978693555838499	probability of observing this or more number of mutations is too small
+UPP1	12576.0	0.014645430414279351	0.411484880953635	0.003167579215221907	probability of observing this or more number of mutations is too small
+UQCRC1	12585.0	0.029599174705802575	0.324985227167362	0.03964186487106981	probability of observing this or more number of mutations is too small
+URB2	28967.0	0.052001568489388784	0.336192655245553	0.03902458652601743	probability of observing this or more number of mutations is too small
+URGCP	30890.0	0.03832522226383072	0.160528855639271	0.09874909277899911	probability of observing this or more number of mutations is too small
+UROD	12591.0	0.019425654539177304	0.34871475405035196	0.013942125857316795	probability of observing this or more number of mutations is too small
+USH1C	12597.0	0.051827224290991875	0.6418612330018469	0.003927540067433992	probability of observing this or more number of mutations is too small
+USP1	12607.0	0.025324194198199947	0.29353982783838695	0.03487476281043647	probability of observing this or more number of mutations is too small
+USP16	12614.0	0.029571966118218947	0.47615466797885203	0.009890132171209457	probability of observing this or more number of mutations is too small
+USP19	12617.0	0.08620801590877418	0.22419712181905102	0.15669795943055134	probability of observing this or more number of mutations is too small
+USP3	12626.0	0.027336176295692176	0.29258930574791997	0.04876659754070931	probability of observing this or more number of mutations is too small
+USP34	20066.0	0.19147637112437488	0.679905432568741	0.09959772802349005	probability of observing this or more number of mutations is too small
+USP35	20061.0	0.052904753087084616	0.153125554224474	0.14316992727967495	probability of observing this or more number of mutations is too small
+USP37	20063.0	0.03844409512647714	0.211177795944133	0.07991391870584799	probability of observing this or more number of mutations is too small
+USP4	12627.0	0.051862004701324786	0.5386488757142629	0.007476176830446668	probability of observing this or more number of mutations is too small
+USP44	20064.0	0.029152063710198673	0.28741851761357	0.037072739391586784	probability of observing this or more number of mutations is too small
+USP46	20075.0	0.03845376217127497	0.418936667990117	0.05117184313655267	probability of observing this or more number of mutations is too small
+USP5	12628.0	0.04829636663687109	1.008518826420515	0.00012847223259822817	probability of observing this or more number of mutations is too small
+USP8	12631.0	0.05730836104503982	0.839375540983127	0.004703258108878548	probability of observing this or more number of mutations is too small
+UTP14C	20321.0	0.02237053122938341	0.29415412114712	0.018164227679401096	probability of observing this or more number of mutations is too small
+UTP20	17897.0	0.10512209959761337	0.31748819559224295	0.12752028098009077	probability of observing this or more number of mutations is too small
+UTS2B	30894.0	0.004219255168617359	0.149671867320985	0.008459846667043917	probability of observing this or more number of mutations is too small
+UVRAG	12640.0	0.032634501831662666	0.308797205850991	0.03621468784669858	probability of observing this or more number of mutations is too small
+UVSSA	29304.0	0.032645825607535164	0.7702048013504241	0.00019885409072633244	probability of observing this or more number of mutations is too small
+UXS1	17729.0	0.026121876786065104	0.001	1.0	observed < expected, pvalue set at 1
+VANGL1	15512.0	0.026497002676439837	0.181642189639314	0.07500127302412984	probability of observing this or more number of mutations is too small
+VASN	18517.0	0.030134706304068302	0.44529280004235194	0.006766347237421251	probability of observing this or more number of mutations is too small
+VAV3	12659.0	0.04043610893981315	0.14707706057356	0.13730913510865644	probability of observing this or more number of mutations is too small
+VCAN	2464.0	0.10386120688250342	0.14707706057356	0.38764182054947444	probability of observing this or more number of mutations is too small
+VCPIP1	30897.0	0.047621875149772716	0.30451136540264195	0.047100840548567786	probability of observing this or more number of mutations is too small
+VEZF1	12949.0	0.02016225740140407	0.823589761127393	5.509883130394114e-05	probability of observing this or more number of mutations is too small
+VIL1	12690.0	0.03944311781890609	0.001	1.0	observed < expected, pvalue set at 1
+VIPR2	12695.0	0.034544819384313745	0.001	1.0	observed < expected, pvalue set at 1
+VPS13B	2183.0	0.16149546860975383	0.161078781127551	1.0	observed < expected, pvalue set at 1
+VPS13C	23594.0	0.1418485009850305	0.14707706057356	0.42437622264951036	probability of observing this or more number of mutations is too small
+VPS13D	23595.0	0.24318998187241525	0.613729479061438	0.1359167010670891	probability of observing this or more number of mutations is too small
+VPS16	14584.0	0.04563263441022016	0.40250298086988395	0.028722265745025864	probability of observing this or more number of mutations is too small
+VPS33B	12712.0	0.035178791976722246	0.001	1.0	observed < expected, pvalue set at 1
+VPS35	13487.0	0.054878213694280135	0.29353982783838695	0.07146411667578914	probability of observing this or more number of mutations is too small
+VPS37D	18287.0	0.014924277750035414	0.307955433012906	0.007555776344478288	probability of observing this or more number of mutations is too small
+VPS39	20593.0	0.050355799102825574	0.346435093148541	0.04393883946696135	probability of observing this or more number of mutations is too small
+VPS4B	10895.0	0.02222984807082428	0.15453145234334698	0.0650185405375352	probability of observing this or more number of mutations is too small
+VPS53	25608.0	0.049646170676105925	0.296426139853306	0.08144523197871675	probability of observing this or more number of mutations is too small
+VSIG1	28675.0	0.00866940302245122	0.305383573941161	0.004708000514537602	probability of observing this or more number of mutations is too small
+VWA3A	27088.0	0.043627335975337043	0.001	1.0	observed < expected, pvalue set at 1
+VWA5B1	26538.0	0.060254682859674356	0.6574633746526299	0.003709973452298579	probability of observing this or more number of mutations is too small
+VWA7	13939.0	0.0402570090635171	0.15530905216940802	0.10463963591310693	probability of observing this or more number of mutations is too small
+VWDE	21897.0	0.053141979081139365	0.14707706057356	0.21514300812041615	probability of observing this or more number of mutations is too small
+WAC	17327.0	0.030732538089041854	1.1978852185056978	6.6565114584997244e-06	probability of observing this or more number of mutations is too small
+WARS	12729.0	0.023669419300281668	0.30004658130366496	0.03415929132963755	probability of observing this or more number of mutations is too small
+WAS	12731.0	0.014696894268791628	0.29258930574791997	0.013362508826618744	probability of observing this or more number of mutations is too small
+WASL	12735.0	0.030943009844967284	0.7324473396555501	0.018989901338761016	probability of observing this or more number of mutations is too small
+WDFY2	20482.0	0.021153696929520644	0.001	1.0	observed < expected, pvalue set at 1
+WDFY4	29323.0	0.12266455195650493	0.001	1.0	observed < expected, pvalue set at 1
+WDHD1	23170.0	0.04415496542622763	0.47615466797885203	0.01872305361605903	probability of observing this or more number of mutations is too small
+WDPCP	28027.0	0.02837239004056218	0.001	1.0	observed < expected, pvalue set at 1
+WDR17	16661.0	0.05252835641939671	0.33720161822700107	0.04975789553423183	probability of observing this or more number of mutations is too small
+WDR33	25651.0	0.11332364081284034	0.001	1.0	observed < expected, pvalue set at 1
+WDR34	28296.0	0.02935031672240538	0.32956835321765005	0.021976134250974062	probability of observing this or more number of mutations is too small
+WDR37	31406.0	0.03198702146144872	0.29636152251219605	0.0552337154714995	probability of observing this or more number of mutations is too small
+WDR45B	25072.0	0.016807060571433375	0.34501518768361206	0.009630029339800892	probability of observing this or more number of mutations is too small
+WDR5	12757.0	0.03439105444240256	0.6642295422031971	0.028628318439029715	probability of observing this or more number of mutations is too small
+WDR6	12758.0	0.053434449620813666	0.001	1.0	observed < expected, pvalue set at 1
+WDR63	30711.0	0.033725093099358595	0.001	1.0	observed < expected, pvalue set at 1
+WDR66	28506.0	0.04100201472793575	0.001	1.0	observed < expected, pvalue set at 1
+WDR7	13490.0	0.07267941979994538	0.308797205850991	0.10565218476708409	probability of observing this or more number of mutations is too small
+WDR74	25529.0	0.024504736399315184	0.14707706057356	0.07741214557102738	probability of observing this or more number of mutations is too small
+WDR86	28020.0	0.03239082063466714	0.16986724091617003	0.0816277370152979	probability of observing this or more number of mutations is too small
+WDR87	29934.0	0.0870146188246837	0.001	1.0	observed < expected, pvalue set at 1
+WDR88	26999.0	0.01754604264150398	0.14707706057356	0.08548056969376215	probability of observing this or more number of mutations is too small
+WDR90	26960.0	0.0872355285214821	0.6057590518572671	0.010274727112073775	probability of observing this or more number of mutations is too small
+WDR93	26924.0	0.023240595074597695	0.14707706057356	0.104462390786307	probability of observing this or more number of mutations is too small
+WDTC1	29175.0	0.03878823249370573	0.305383573941161	0.05640039214254784	probability of observing this or more number of mutations is too small
+WHAMM	30493.0	0.07328616816635275	0.609749958668666	0.05451434055185878	probability of observing this or more number of mutations is too small
+WIPI2	32225.0	0.02724055236930527	0.183383637182075	0.06459961386750086	probability of observing this or more number of mutations is too small
+WISP1	12769.0	0.01958898522893634	0.323720448101754	0.01678963472401941	probability of observing this or more number of mutations is too small
+WNK1	14540.0	0.16515569565594745	0.334052081797976	0.1516837234188137	probability of observing this or more number of mutations is too small
+WNK2	14542.0	0.17516322557352346	0.001	1.0	observed < expected, pvalue set at 1
+WNT8B	12789.0	0.02331222405033307	0.31045643352465196	0.03047983166226218	probability of observing this or more number of mutations is too small
+WSB1	19221.0	0.019779913689970435	0.001	1.0	observed < expected, pvalue set at 1
+WWC1	29435.0	0.059789374049333106	0.14707706057356	0.20349916805541204	probability of observing this or more number of mutations is too small
+WWC2	24148.0	0.04808441696731286	0.001	1.0	observed < expected, pvalue set at 1
+WWC3	29237.0	0.03856286034565212	0.29353982783838695	0.04818769893477891	probability of observing this or more number of mutations is too small
+WWTR1	24042.0	0.023397303567437317	0.47615466797885203	0.006613071331544322	probability of observing this or more number of mutations is too small
+XAGE5	30930.0	0.0029353914860445443	0.001	1.0	observed < expected, pvalue set at 1
+XDH	12805.0	0.05878579721735429	0.001	1.0	observed < expected, pvalue set at 1
+XIAP	592.0	0.010682225027271978	0.314454687161942	0.007948036660871283	probability of observing this or more number of mutations is too small
+XIRP1	14301.0	0.06405975942248796	0.317744230968516	0.051058428714406356	probability of observing this or more number of mutations is too small
+XIRP2	14303.0	0.12173495700880914	0.001	1.0	observed < expected, pvalue set at 1
+XKR7	23062.0	0.04018604018541033	0.323720448101754	0.03143689636582847	probability of observing this or more number of mutations is too small
+XKRX	29845.0	0.01074293657550117	0.001	1.0	observed < expected, pvalue set at 1
+XPC	12816.0	0.03996249686997096	0.28641851761357	0.047200290235263405	probability of observing this or more number of mutations is too small
+XPO6	19733.0	0.0576986843917206	0.33160413133020195	0.06633036399854575	probability of observing this or more number of mutations is too small
+XRCC5	12833.0	0.03483935088805564	0.734602542493618	0.017718664209394844	probability of observing this or more number of mutations is too small
+XRN2	12836.0	0.06149726042243373	0.16527527622173702	0.124316601925293	probability of observing this or more number of mutations is too small
+XYLT1	15516.0	0.057433367538083716	0.001	1.0	observed < expected, pvalue set at 1
+YBX3	2428.0	0.036095259487193006	0.326795060041807	0.04134621360041902	probability of observing this or more number of mutations is too small
+YPEL5	18329.0	0.018504235723344382	0.324358557756721	0.026880251329048706	probability of observing this or more number of mutations is too small
+YTHDC2	24721.0	0.064612273705022	0.29636152251219605	0.08895479515918772	probability of observing this or more number of mutations is too small
+YWHAB	12849.0	0.012539537954276371	0.34039816211096996	0.014532030921939996	probability of observing this or more number of mutations is too small
+ZAN	12857.0	0.10705260926246156	0.222487592674281	0.16024110207938727	probability of observing this or more number of mutations is too small
+ZBED4	20721.0	0.05046447999151603	0.14707706057356	0.214266574497899	probability of observing this or more number of mutations is too small
+ZBED5	30803.0	0.021068248807419757	0.315990550203252	0.015555924429970999	probability of observing this or more number of mutations is too small
+ZBTB10	30953.0	0.04297902785580745	0.324358557756721	0.03609115028850973	probability of observing this or more number of mutations is too small
+ZBTB17	12936.0	0.10382277533959842	0.301852504089027	0.13591606658992716	probability of observing this or more number of mutations is too small
+ZBTB3	22918.0	0.02143101120008225	0.47615466797885203	0.0065298012381717315	probability of observing this or more number of mutations is too small
+ZBTB40	29045.0	0.05176828946002892	0.001	1.0	observed < expected, pvalue set at 1
+ZBTB48	4930.0	0.034524997466747934	0.295426139853306	0.046934512908613335	probability of observing this or more number of mutations is too small
+ZBTB49	19883.0	0.032591064452891685	0.14707706057356	0.12475986417350404	probability of observing this or more number of mutations is too small
+ZBTB7B	18668.0	0.023824574805655654	0.14707706057356	0.11070354130398173	probability of observing this or more number of mutations is too small
+ZC3H12C	29362.0	0.04837916808121158	0.733602542493618	0.02326070880956673	probability of observing this or more number of mutations is too small
+ZC3H14	20509.0	0.05109440468792787	0.453042835187582	0.03794064555778578	probability of observing this or more number of mutations is too small
+ZC3H6	24762.0	0.03836213638838468	0.307955433012906	0.039516846867685376	probability of observing this or more number of mutations is too small
+ZC3H7A	30959.0	0.05117707989619202	0.299134179531649	0.062415940845271724	probability of observing this or more number of mutations is too small
+ZC3HAV1	23721.0	0.046489414419262194	0.14707706057356	0.1729767748080141	probability of observing this or more number of mutations is too small
+ZCCHC14	24134.0	0.03633039735408345	0.001	1.0	observed < expected, pvalue set at 1
+ZCCHC2	22916.0	0.052528863583169834	0.001	1.0	observed < expected, pvalue set at 1
+ZCCHC8	25265.0	0.03355055574699058	0.282727240281655	0.05666917780483458	probability of observing this or more number of mutations is too small
+ZDBF2	29313.0	0.06497194400419674	0.487001744362759	0.010923211370107641	probability of observing this or more number of mutations is too small
+ZDHHC15	20342.0	0.009424914746604625	0.30274564707125	0.010285445387910848	probability of observing this or more number of mutations is too small
+ZDHHC16	20714.0	0.02117486051562314	0.001	1.0	observed < expected, pvalue set at 1
+ZDHHC18	20712.0	0.024906853806696792	0.6785684442299	0.0004516501979401367	probability of observing this or more number of mutations is too small
+ZEB2	14881.0	0.08252510588145764	1.576444203084078	0.0009435987240001131	probability of observing this or more number of mutations is too small
+ZFC3H1	28328.0	0.08598535133378711	0.652039028134223	0.011506501829845483	probability of observing this or more number of mutations is too small
+ZFHX3	777.0	0.13683774621370273	1.237763418501639	0.0003562087141981035	probability of observing this or more number of mutations is too small
+ZFHX4	30939.0	0.11892163849358932	0.23812000671995603	0.1642462787236381	probability of observing this or more number of mutations is too small
+ZFP62	23241.0	0.02527618286235543	0.001	1.0	observed < expected, pvalue set at 1
+ZFP64	15940.0	0.05880560943444478	0.267914623072443	0.09021884644804003	probability of observing this or more number of mutations is too small
+ZFP69	24708.0	0.01751520694582391	0.5693293081223659	0.0007611026205397958	probability of observing this or more number of mutations is too small
+ZFPL1	12868.0	0.02109417461668499	0.001	1.0	observed < expected, pvalue set at 1
+ZFR	17277.0	0.08740237108350972	0.29448550745637603	0.10240860334476584	probability of observing this or more number of mutations is too small
+ZFYVE1	13180.0	0.04898776150548783	0.001	1.0	observed < expected, pvalue set at 1
+ZFYVE27	26559.0	0.02215563425277886	0.47615466797885203	0.00589688163352298	probability of observing this or more number of mutations is too small
+ZHX1	12871.0	0.02843844394239084	0.334052081797976	0.018396805994316416	probability of observing this or more number of mutations is too small
+ZMIZ1	16493.0	0.10018794257429914	0.838375540983127	0.02306883334497563	probability of observing this or more number of mutations is too small
+ZMYND19	21146.0	0.014280036903128884	0.45918344506298603	0.004389125813978454	probability of observing this or more number of mutations is too small
+ZMYND8	9397.0	0.10202257097706133	0.34401518768361206	0.10332114723629673	probability of observing this or more number of mutations is too small
+ZNF106	12886.0	0.08080137517365989	0.312082093043671	0.09647909981599952	probability of observing this or more number of mutations is too small
+ZNF174	12963.0	0.01628531190094768	0.47615466797885203	0.005798935069834006	probability of observing this or more number of mutations is too small
+ZNF175	12964.0	0.02215104955780571	0.307955433012906	0.015206306901643691	probability of observing this or more number of mutations is too small
+ZNF181	12971.0	0.016234874032652644	0.001	1.0	observed < expected, pvalue set at 1
+ZNF184	12975.0	0.02373146220704874	0.346435093148541	0.01691991574054574	probability of observing this or more number of mutations is too small
+ZNF214	13006.0	0.01733244394583992	0.316744230968516	0.010812231458245461	probability of observing this or more number of mutations is too small
+ZNF217	13009.0	0.040267969633666356	0.47615466797885203	0.013307188395537382	probability of observing this or more number of mutations is too small
+ZNF219	13011.0	0.052717516243481595	0.001	1.0	observed < expected, pvalue set at 1
+ZNF221	13014.0	0.020508739500630115	0.161216643234289	0.04875203361945849	probability of observing this or more number of mutations is too small
+ZNF224	13017.0	0.023946852536916037	0.19704141943683803	0.041813180174192145	probability of observing this or more number of mutations is too small
+ZNF233	30946.0	0.024878310323215774	0.300952752817675	0.015175126764776305	probability of observing this or more number of mutations is too small
+ZNF234	13027.0	0.023076225906098452	0.261174794673848	0.023631133179671592	probability of observing this or more number of mutations is too small
+ZNF248	13041.0	0.015878092813549974	0.155700588752279	0.03534850809653779	probability of observing this or more number of mutations is too small
+ZNF254	13047.0	0.01696705018196687	0.14707706057356	0.08743530562598571	probability of observing this or more number of mutations is too small
+ZNF268	13061.0	0.03307943073170551	0.6572354451120079	0.0008036112291827863	probability of observing this or more number of mutations is too small
+ZNF277	13070.0	0.017943042180901075	0.297291455108301	0.02461766099592884	probability of observing this or more number of mutations is too small
+ZNF281	13075.0	0.029001917086380863	0.23776276816198497	0.03209837893607291	probability of observing this or more number of mutations is too small
+ZNF292	18410.0	0.08954332663451557	0.75756466508347	0.004583991857141533	probability of observing this or more number of mutations is too small
+ZNF32	13095.0	0.009658083059911646	0.334520973626555	0.005776524821288111	probability of observing this or more number of mutations is too small
+ZNF326	14104.0	0.02538574091475733	0.29163414820366	0.029508017922042034	probability of observing this or more number of mutations is too small
+ZNF34	13098.0	0.0197203265585954	0.192410176438119	0.03976558247013025	probability of observing this or more number of mutations is too small
+ZNF346	16403.0	0.014941565899501161	0.27270641520428895	0.022135851961817186	probability of observing this or more number of mutations is too small
+ZNF37A	13102.0	0.013926613661227771	0.14707706057356	0.07069348559139337	probability of observing this or more number of mutations is too small
+ZNF385B	26332.0	0.02032288415495005	0.001	1.0	observed < expected, pvalue set at 1
+ZNF407	19904.0	0.11657078081279168	0.44006261943462394	0.08209794652657885	probability of observing this or more number of mutations is too small
+ZNF408	20041.0	0.03488137539445976	0.290674564531907	0.03823975749667745	probability of observing this or more number of mutations is too small
+ZNF41	13107.0	0.014418201236080381	0.29636152251219605	0.008843982402664019	probability of observing this or more number of mutations is too small
+ZNF418	20647.0	0.02955622549321489	0.282727240281655	0.034486387138469285	probability of observing this or more number of mutations is too small
+ZNF43	13109.0	0.019312807244718937	0.295426139853306	0.010722742660890116	probability of observing this or more number of mutations is too small
+ZNF436	20814.0	0.017720271008761414	0.21843442520348103	0.029119544585846563	probability of observing this or more number of mutations is too small
+ZNF441	20875.0	0.023278225962865773	0.14707706057356	0.10082948583930686	probability of observing this or more number of mutations is too small
+ZNF445	21018.0	0.036367107445342065	0.001	1.0	observed < expected, pvalue set at 1
+ZNF446	21036.0	0.020042910599217714	0.001	1.0	observed < expected, pvalue set at 1
+ZNF449	21039.0	0.010762891502634223	0.14707706057356	0.0519508716394925	probability of observing this or more number of mutations is too small
+ZNF469	23216.0	0.1479676395205124	0.29415412114712	0.22917702176899596	probability of observing this or more number of mutations is too small
+ZNF496	23713.0	0.028887361502403293	0.29163414820366	0.022983732091864474	probability of observing this or more number of mutations is too small
+ZNF500	23716.0	0.023501467423975617	0.443438583085756	0.006707239963824792	probability of observing this or more number of mutations is too small
+ZNF502	23718.0	0.01650462912710174	0.307955433012906	0.009605887288057783	probability of observing this or more number of mutations is too small
+ZNF510	29161.0	0.01960953078585947	0.47615466797885203	0.0070010486958173275	probability of observing this or more number of mutations is too small
+ZNF512B	29212.0	0.04729674546260985	0.001	1.0	observed < expected, pvalue set at 1
+ZNF513	26498.0	0.023536929946289045	0.30451136540264195	0.01571647529568949	probability of observing this or more number of mutations is too small
+ZNF518B	29365.0	0.03642237217991287	0.19478587775333603	0.07618485092935252	probability of observing this or more number of mutations is too small
+ZNF521	24605.0	0.0563244002993567	0.838375540983127	0.016665187331019696	probability of observing this or more number of mutations is too small
+ZNF528	29384.0	0.020477791807305013	0.14707706057356	0.09975544237150234	probability of observing this or more number of mutations is too small
+ZNF536	29025.0	0.0623695087414955	0.303631995611072	0.046361890370829384	probability of observing this or more number of mutations is too small
+ZNF544	16759.0	0.025035673606733012	0.28755693636381396	0.023367232737511998	probability of observing this or more number of mutations is too small
+ZNF548	26561.0	0.01839479354476362	0.298215739468792	0.015020835570697229	probability of observing this or more number of mutations is too small
+ZNF560	26484.0	0.02474049288657227	0.40440507381604796	0.013805799411145429	probability of observing this or more number of mutations is too small
+ZNF563	30498.0	0.017508074700903903	0.14707706057356	0.08176655850122502	probability of observing this or more number of mutations is too small
+ZNF57	13125.0	0.016918667384409895	0.001	1.0	observed < expected, pvalue set at 1
+ZNF576	28357.0	0.007742016048925466	0.17852986530332	0.021589707054814954	probability of observing this or more number of mutations is too small
+ZNF607	28192.0	0.022608967285863153	0.5504821343896079	0.0011807215507948926	probability of observing this or more number of mutations is too small
+ZNF609	29003.0	0.061739201037430545	0.29448550745637603	0.08292028429975712	probability of observing this or more number of mutations is too small
+ZNF618	29416.0	0.05435453773068621	0.321056690512992	0.044235955627321806	probability of observing this or more number of mutations is too small
+ZNF623	29084.0	0.017124040869767033	0.47615466797885203	0.004966345901380169	probability of observing this or more number of mutations is too small
+ZNF638	17894.0	0.06640359743223959	0.319660192260904	0.06395781199851473	probability of observing this or more number of mutations is too small
+ZNF646	29004.0	0.07846316222827315	0.38577074889880497	0.050319947232609984	probability of observing this or more number of mutations is too small
+ZNF652	29147.0	0.023907017550512992	0.330088938941779	0.017308033083647183	probability of observing this or more number of mutations is too small
+ZNF672	26179.0	0.0315691917922844	0.838375540983127	0.00012028218108932585	probability of observing this or more number of mutations is too small
+ZNF675	30768.0	0.019244308885541843	0.365717705684422	0.011371470716902317	probability of observing this or more number of mutations is too small
+ZNF683	28495.0	0.01899272111763947	0.290674564531907	0.017372326134408145	probability of observing this or more number of mutations is too small
+ZNF704	32291.0	0.024235004098552518	0.313672830982936	0.03960011564457141	probability of observing this or more number of mutations is too small
+ZNF707	27815.0	0.016731247488919083	0.001	1.0	observed < expected, pvalue set at 1
+ZNF737	32468.0	0.015218819764438906	0.186087200629895	0.014626841104936363	probability of observing this or more number of mutations is too small
+ZNF746	21948.0	0.03467492255129375	0.327941605661282	0.021957304296921155	probability of observing this or more number of mutations is too small
+ZNF750	25843.0	0.029287624932787613	0.14707706057356	0.13074466793859685	probability of observing this or more number of mutations is too small
+ZNF764	28200.0	0.025517444602360065	0.181938771542143	0.06473156148634433	probability of observing this or more number of mutations is too small
+ZNF766	28063.0	0.015984428666572566	0.47615466797885203	0.007743202871152549	probability of observing this or more number of mutations is too small
+ZNF77	13150.0	0.020234722414702068	0.14707706057356	0.0932238823757933	probability of observing this or more number of mutations is too small
+ZNF778	26479.0	0.025481245163682543	0.001	1.0	observed < expected, pvalue set at 1
+ZNF782	33110.0	0.019484027989210652	0.234040902636815	0.018082136619315455	probability of observing this or more number of mutations is too small
+ZNF783	27222.0	0.033997815238489354	0.001	1.0	observed < expected, pvalue set at 1
+ZNF79	13153.0	0.017833102086975732	0.457533494098212	0.005443882872470647	probability of observing this or more number of mutations is too small
+ZNF804B	21958.0	0.03920519322825177	0.194735882838721	0.06680606803293467	probability of observing this or more number of mutations is too small
+ZNF814	33258.0	0.02970719174311259	0.175869451403622	0.04308214757840529	probability of observing this or more number of mutations is too small
+ZNF829	34032.0	0.01621405607679613	0.307955433012906	0.011372111829192354	probability of observing this or more number of mutations is too small
+ZNF844	25932.0	0.01764444760251774	0.001	1.0	observed < expected, pvalue set at 1
+ZNF853	21767.0	0.03585558150176256	0.21639531310750898	0.04823450072972152	probability of observing this or more number of mutations is too small
+ZNF878	37246.0	0.017404287438054406	0.27865474359045894	0.012769717803058234	probability of observing this or more number of mutations is too small
+ZNFX1	29271.0	0.08397738721949043	0.491092248257172	0.022360642671307426	probability of observing this or more number of mutations is too small
+ZP4	15770.0	0.018968172318443777	0.001	1.0	observed < expected, pvalue set at 1
+ZSCAN12	13172.0	0.0211318760780906	0.266263626875559	0.019405194694022052	probability of observing this or more number of mutations is too small
+ZSCAN2	20994.0	0.02664308298402654	0.001	1.0	observed < expected, pvalue set at 1
+ZSCAN20	13093.0	0.040255262034138053	0.14707706057356	0.16178431602249393	probability of observing this or more number of mutations is too small
+ZSWIM6	29316.0	0.06673287361528474	0.209212785792262	0.14122682384990684	probability of observing this or more number of mutations is too small
+ZSWIM8	23528.0	0.1588236811906049	0.311273544400891	0.18228416866758893	probability of observing this or more number of mutations is too small
+ZW10	13194.0	0.02962517528966545	0.282727240281655	0.045322537859355756	probability of observing this or more number of mutations is too small
